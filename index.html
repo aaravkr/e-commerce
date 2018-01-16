@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+    <head>
+       <title>NEHHDC</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/navbarflip.css">
+         <link rel="stylesheet" href="style.css">  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <style>
+            .shopping_carts{
+                position: relative;
+            }
+        
+        </style>
+    </head>
+    
+    <body>
+        <section id="header">
+                <div class="header">
+                    
+                    <div class="logoN">
+                        <img src="image/logo.png" width="120" height="120"><br>
+                        NEHHDC
+                        
+                    </div>
+                    
+                    <div class="login">
+                        <div class="register">
+                            <a href="form.html">Login | Register</a>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </div>
+                       
+            <hr>
+        </section>
+        
+        <section id="navbar">
+            
+             <div class="center">
+      <ul>
+        <li><a href="#">Home</a></li> 
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blog</a></li>
+           <li><a href="#">Contact</a></li>
+        </ul>
+    
+    </div>
+            
+        </section>
+<!--
+        <section id="navbottomimg">
+            <div class="navbottomimg">
+               
+            </div>
+        </section>
+-->
+<!--
+        <section id="diamond">
+        <div class="diamond">
+            <div class="diamond1">Diamond jwellery</div><div class="diamond2">(1000 items)</div>
+        </div>
+        <hr>
+        </section>
+-->
+   
+   <section class="shopping_carts">
+       
+
+
+ 
+
+
+ <div id='cart'>
+  <h2>Your Shopping Cart</h2>
+  <ul class='cart-items'></ul>
+  <div class='total'>
+    <div class='subtotalTotal'>
+      Subtotal
+      <span>Rs 0.00</span>
+    </div>
+    <div class='taxes'>
+      Tax
+      <span>Rs 0.00</span>
+    </div>
+    <div class='shipping'>
+      Shipping
+      <span>Rs 0.00</span>
+    </div>
+    <div class='finalTotal'>
+      Total
+      <span>Rs 0.00</span>
+    </div>
+    <a class='checkout'>
+      Check Out
+    </a>
+    <p class='error'></p>
+  </div>
+</div>
+<div class='wrap' id='wrap'>
+  <header>
+    <a class='logo' href='#'>
+     products
+    </a>
+    <a class='cart-link' href='#menu'>
+      <span class='cart-text fontawesome-shopping-cart'>
+        <span>Cart</span>
+      </span>
+      <span class='returnToShop'>&larr; Back</span>
+      <span class='cart-quantity empty'>0</span>
+    </a>
+  </header>
+  <section class='shop'></section>
+  <footer>
+    <p>This is the Trailer</p>
+  </footer>
+</div>
+<!-- / Product Templates for Shop & Cart -->
+
+  
+   </section>
+    
+      
+       
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script id='productTemplate' type='text/template'>
+  <div class="product">
+  <h1></h1>
+  <p></p>
+  <div class="button">
+  <div class="price"></div>
+  <a class="addtocart">
+  <div class="add">Add to Cart</div>
+  <div class="added">Added!</div>
+  </a>
+  </div>
+  </div>
+</script>
+<script id='cartItem' type='text/template'>
+  <li><div class="cart-product">
+  <input class="quantity" value="1">
+  </div><div class="cart-description">
+  <h3></h3>
+  <span class="subtotal"></span>
+  </div></li>
+</script>
+   <script src="script.js"></script>
+       
+       
+        <script src="JS/JQUERY.js"></script>        
+    </body>
+    
+</html>
